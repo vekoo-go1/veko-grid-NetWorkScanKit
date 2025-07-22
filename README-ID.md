@@ -1,49 +1,49 @@
-# 🛰️ Veko Grid - Network Exploration & Stealth Tool
+#  Veko Grid - Network Exploration & Stealth Tool
 
 **Veko Grid** adalah tool CLI berbasis Go untuk eksplorasi jaringan anonim dan stealth scanning dengan support TOR, proxy rotation, dan grid-style network mapping.
 
-## 🎯 Tujuan Utama
+##  Tujuan Utama
 
 Tool ini dibuat khusus untuk:
-- 📚 **Penelitian akademik**
-- 🔒 **Audit keamanan jaringan sendiri**
-- 🌐 **Eksplorasi infrastruktur domain publik secara legal dan anonim**
+-  **Penelitian akademik**
+-  **Audit keamanan jaringan sendiri**
+-  **Eksplorasi infrastruktur domain publik secara legal dan anonim**
 
-> ⚠️ **PENTING**: Tool ini BUKAN untuk hacking atau serangan. Gunakan hanya untuk tujuan legal dan etis.
+>  **PENTING**: Tool ini BUKAN untuk hacking atau serangan. Gunakan hanya untuk tujuan legal dan etis.
 
-## 🧩 Fitur Utama
+##  Fitur Utama
 
-### 🕸️ Network Mapping
+###  Network Mapping
 - Pemetaan jaringan eksternal (port, ping, traceroute)
 - Scan domain atau IP publik dengan batas aman
 - DNS Resolver lengkap (A/AAAA/MX/NS/CNAME/TXT)
 - CDN detection dan analysis
 
-### 🧊 Anonimitas Tinggi
+###  Anonimitas Tinggi
 - Support koneksi melalui TOR
 - Proxy HTTP/SOCKS5 dengan rotasi otomatis
 - Header spoofing (User-Agent, Accept, dll)
 - TLS Fingerprint randomization
 
-### 🧭 Intelligent Grid Scan
+###  Intelligent Grid Scan
 - Grid-style scanning dengan visualisasi ASCII
 - Input dari file `.txt` berisi domain/IP
 - Real-time progress monitoring
 - Concurrent scanning dengan rate limiting
 
-### 🔐 Stealth & Penyamaran
+###  Stealth & Penyamaran
 - Random delay antar permintaan (anti-radar)
 - DNS-over-HTTPS (DoH) optional
 - Multiple fingerprint modes
 - Proxy rotation otomatis
 
-### 📦 Output & Logging
+###  Output & Logging
 - Export hasil ke JSON atau CSV
 - Mode `--silent`, `--json`, dan `--debug`
 - HTML report generation
 - Comprehensive logging system
 
-## 🚀 Instalasi dan Build
+##  Instalasi dan Build
 
 ### Prerequisites
 - Go 1.19 atau lebih baru
