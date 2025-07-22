@@ -1,0 +1,55 @@
+# Veko Grid - Contoh Target Popular Websites
+# Research Infrastructure Website Populer
+# HANYA untuk penelitian akademik dan educational purposes
+# Format: satu domain per baris
+
+# === SEARCH ENGINES ===
+google.com
+bing.com
+duckduckgo.com
+yahoo.com
+
+# === SOCIAL MEDIA PLATFORMS ===
+facebook.com
+twitter.com
+instagram.com
+linkedin.com
+reddit.com
+
+# === DEVELOPER PLATFORMS ===
+github.com
+stackoverflow.com
+gitlab.com
+bitbucket.org
+
+# === CLOUD PROVIDERS ===
+amazon.com
+aws.amazon.com
+microsoft.com
+azure.microsoft.com
+google.com
+cloud.google.com
+
+# === CDN PROVIDERS ===
+cloudflare.com
+fastly.com
+akamai.com
+maxcdn.com
+
+# === TECH COMPANIES ===
+apple.com
+netflix.com
+spotify.com
+dropbox.com
+
+# === NEWS & MEDIA ===
+cnn.com
+bbc.com
+reuters.com
+nytimes.com
+
+# CATATAN PENTING:
+# - Gunakan untuk educational research saja
+# - Respect robots.txt dan ToS
+# - Jangan scan secara agresif
+# - Gunakan delay yang wajar (--delay 2000-5000)

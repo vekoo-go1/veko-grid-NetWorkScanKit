@@ -1,0 +1,21 @@
+# Veko Grid - Example Targets File
+# Format: satu domain/IP per baris
+# Gunakan # untuk komentar
+
+# Contoh domain untuk testing (ganti dengan target yang valid)
+example.com
+google.com
+github.com
+cloudflare.com
+
+# Contoh IP address
+8.8.8.8
+1.1.1.1
+
+# DNS servers untuk testing
+dns.google
+one.one.one.one
+
+# Tambahkan target Anda di bawah ini
+# domain-anda.com
+# ip-server-anda

@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "tool": "Veko Grid",
+    "version": "1.0.0",
+    "start_time": "2025-07-22T12:58:36.428779482Z",
+    "end_time": "2025-07-22T12:58:36.428779572Z",
+    "duration": "70ns",
+    "total_hosts": 0,
+    "successful": 0,
+    "failed": 0,
+    "config": {
+      "use_tor": false,
+      "dns_mode": "default",
+      "delay_range": "100-500",
+      "timeout": 5,
+      "max_threads": 10
+    }
+  },
+  "results": [
+    {
+      "target": "example.com",
+      "ip": "23.192.228.80",
+      "timestamp": "2025-07-22T12:55:06.511354155Z",
+      "dns_records": {
+        "A": [
+          "23.192.228.80",
+          "96.7.128.198",
+          "23.215.0.138",
+          "23.192.228.84",
+          "96.7.128.175",
+          "23.215.0.136"
+        ],
+        "AAAA": [
+          "2600:1408:ec00:36::1736:7f24",
+          "2600:1406:bc00:53::b81e:94ce",
+          "2600:1406:3a00:21::173e:2e66",
+          "2600:1408:ec00:36::1736:7f31",
+          "2600:1406:3a00:21::173e:2e65",
+          "2600:1406:bc00:53::b81e:94c8"
+        ],
+        "MX": [
+          "0 "
+        ],
+        "NS": [
+          "a.iana-servers.net",
+          "b.iana-servers.net"
+        ],
+        "TXT": [
+          "v=spf1 -all",
+          "_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9"
+        ]
+      },
+      "open_ports": [
+        80,
+        443
+      ],
+      "services": {
+        "443": "https",
+        "80": "http"
+      },
+      "traceroute": [
+        "192.168.1.1",
+        "23.192.228.80"
+      ],
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "-5fa120aa48a2eaf",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1302)",
+          "server_name": "example.com",
+          "certificate": {
+            "subject": "CN=*.example.com,O=Internet Corporation for Assigned Names and Numbers,L=Los Angeles,ST=California,C=US",
+            "issuer": "CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1,O=DigiCert Inc,C=US",
+            "not_before": "2025-01-15T00:00:00Z",
+            "not_after": "2026-01-15T23:59:59Z",
+            "serial_number": "14416812407440461216471976375640436634",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 2
+      },
+      "scan_time": 90361044918
+    },
+    {
+      "target": "cloudflare.com",
+      "ip": "104.16.132.229",
+      "timestamp": "2025-07-22T12:55:06.516803372Z",
+      "dns_records": {
+        "A": [
+          "104.16.132.229",
+          "104.16.133.229"
+        ],
+        "AAAA": [
+          "2606:4700::6810:84e5",
+          "2606:4700::6810:85e5"
+        ],
+        "MX": [
+          "10 mailstream-west.mxrecord.io",
+          "5 mailstream-canary.mxrecord.io",
+          "10 mailstream-east.mxrecord.io",
+          "20 mailstream-central.mxrecord.mx"
+        ],
+        "NS": [
+          "ns5.cloudflare.com",
+          "ns4.cloudflare.com",
+          "ns6.cloudflare.com",
+          "ns7.cloudflare.com",
+          "ns3.cloudflare.com"
+        ]
+      },
+      "open_ports": [
+        80,
+        443,
+        8080,
+        8443
+      ],
+      "services": {
+        "443": "https",
+        "80": "http",
+        "8080": "http-alt",
+        "8443": "https-alt"
+      },
+      "traceroute": [
+        "192.168.1.1",
+        "104.16.132.229"
+      ],
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "cloudflare.com",
+          "certificate": {
+            "subject": "CN=cloudflare.com",
+            "issuer": "CN=WE1,O=Google Trust Services,C=US",
+            "not_before": "2025-05-27T00:32:04Z",
+            "not_after": "2025-08-25T01:32:00Z",
+            "serial_number": "116496321805404369342498699434032008644",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 3
+      },
+      "scan_time": 114216403103
+    },
+    {
+      "target": "google.com",
+      "ip": "142.250.125.101",
+      "timestamp": "2025-07-22T12:55:06.295688509Z",
+      "dns_records": {
+        "A": [
+          "142.250.125.101",
+          "142.250.125.138",
+          "142.250.125.100",
+          "142.250.125.102",
+          "142.250.125.139",
+          "142.250.125.113"
+        ],
+        "AAAA": [
+          "2607:f8b0:4001:c09::8b",
+          "2607:f8b0:4001:c09::64",
+          "2607:f8b0:4001:c09::66",
+          "2607:f8b0:4001:c09::65"
+        ],
+        "MX": [
+          "10 smtp.google.com"
+        ],
+        "NS": [
+          "ns3.google.com",
+          "ns1.google.com",
+          "ns2.google.com",
+          "ns4.google.com"
+        ]
+      },
+      "open_ports": [
+        80,
+        443
+      ],
+      "services": {
+        "443": "https",
+        "80": "http"
+      },
+      "traceroute": [
+        "192.168.1.1",
+        "142.250.125.101"
+      ],
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "google.com",
+          "certificate": {
+            "subject": "CN=*.google.com",
+            "issuer": "CN=WE2,O=Google Trust Services,C=US",
+            "not_before": "2025-06-23T08:40:23Z",
+            "not_after": "2025-09-15T08:40:22Z",
+            "serial_number": "52441464127366067424845913807817803515",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 3
+      },
+      "scan_time": 120082732070
+    },
+    {
+      "target": "dns.google",
+      "ip": "8.8.4.4",
+      "timestamp": "2025-07-22T12:55:06.360535531Z",
+      "dns_records": {
+        "A": [
+          "8.8.4.4",
+          "8.8.8.8"
+        ],
+        "AAAA": [
+          "2001:4860:4860::8844",
+          "2001:4860:4860::8888"
+        ],
+        "NS": [
+          "ns4.zdns.google",
+          "ns3.zdns.google",
+          "ns2.zdns.google",
+          "ns1.zdns.google"
+        ],
+        "TXT": [
+          "v=spf1 -all",
+          "https://xkcd.com/1361/"
+        ]
+      },
+      "open_ports": [
+        53,
+        443
+      ],
+      "services": {
+        "443": "https",
+        "53": "dns"
+      },
+      "traceroute": [
+        "192.168.1.1",
+        "8.8.4.4"
+      ],
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "dns.google",
+          "certificate": {
+            "subject": "CN=dns.google",
+            "issuer": "CN=WE2,O=Google Trust Services,C=US",
+            "not_before": "2025-06-23T08:42:25Z",
+            "not_after": "2025-09-15T08:42:24Z",
+            "serial_number": "207776729474552253265374974794358948699",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 3
+      },
+      "scan_time": 120052269402
+    },
+    {
+      "target": "one.one.one.one",
+      "ip": "1.1.1.1",
+      "timestamp": "2025-07-22T12:55:06.577020586Z",
+      "dns_records": {
+        "A": [
+          "1.1.1.1",
+          "1.0.0.1"
+        ],
+        "AAAA": [
+          "2606:4700:4700::1001",
+          "2606:4700:4700::1111"
+        ],
+        "TXT": [
+          "_27pzqheibkz3ec5g8loj1d4eppt1o4d"
+        ]
+      },
+      "open_ports": [
+        53,
+        80,
+        443,
+        8080,
+        8443
+      ],
+      "services": {
+        "443": "https",
+        "53": "dns",
+        "80": "http",
+        "8080": "http-alt",
+        "8443": "https-alt"
+      },
+      "traceroute": [
+        "192.168.1.1",
+        "1.1.1.1"
+      ],
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "one.one.one.one",
+          "certificate": {
+            "subject": "CN=cloudflare-dns.com,O=Cloudflare\\, Inc.,L=San Francisco,ST=California,C=US",
+            "issuer": "CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US",
+            "not_before": "2025-01-02T00:00:00Z",
+            "not_after": "2026-01-21T23:59:59Z",
+            "serial_number": "3311565258528077731295218946714536456",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 2
+      },
+      "scan_time": 141169474510
+    },
+    {
+      "target": "github.com",
+      "ip": "140.82.113.3",
+      "timestamp": "2025-07-22T12:55:06.464575485Z",
+      "dns_records": {
+        "A": [
+          "140.82.113.3"
+        ],
+        "MX": [
+          "5 alt1.aspmx.l.google.com",
+          "5 alt2.aspmx.l.google.com",
+          "1 aspmx.l.google.com",
+          "10 alt3.aspmx.l.google.com",
+          "10 alt4.aspmx.l.google.com"
+        ],
+        "NS": [
+          "ns-520.awsdns-01.net",
+          "dns3.p08.nsone.net",
+          "dns4.p08.nsone.net",
+          "dns1.p08.nsone.net",
+          "ns-1283.awsdns-32.org",
+          "ns-1707.awsdns-21.co.uk",
+          "dns2.p08.nsone.net",
+          "ns-421.awsdns-52.com"
+        ]
+      },
+      "open_ports": [
+        22,
+        80,
+        443
+      ],
+      "services": {
+        "22": "ssh",
+        "443": "https",
+        "80": "http"
+      },
+      "traceroute": [
+        "192.168.1.1",
+        "140.82.113.3"
+      ],
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "github.com",
+          "certificate": {
+            "subject": "CN=github.com",
+            "issuer": "CN=Sectigo ECC Domain Validation Secure Server CA,O=Sectigo Limited,L=Salford,ST=Greater Manchester,C=GB",
+            "not_before": "2025-02-05T00:00:00Z",
+            "not_after": "2026-02-05T23:59:59Z",
+            "serial_number": "227830333772454795620750445496253172213",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 3
+      },
+      "scan_time": 147235293207
+    },
+    {
+      "target": "1.1.1.1",
+      "timestamp": "2025-07-22T12:55:06.262043104Z",
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "",
+          "certificate": {
+            "subject": "CN=cloudflare-dns.com,O=Cloudflare\\, Inc.,L=San Francisco,ST=California,C=US",
+            "issuer": "CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US",
+            "not_before": "2025-01-02T00:00:00Z",
+            "not_after": "2026-01-21T23:59:59Z",
+            "serial_number": "3311565258528077731295218946714536456",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 2
+      },
+      "scan_time": 210155482098
+    },
+    {
+      "target": "8.8.8.8",
+      "timestamp": "2025-07-22T12:55:06.377933083Z",
+      "tls_info": {
+        "fingerprint": {
+          "ja3": "6d6b337e39855905",
+          "tls_version": "TLS 1.3",
+          "cipher_suite": "Unknown (0x1301)",
+          "server_name": "",
+          "certificate": {
+            "subject": "CN=dns.google",
+            "issuer": "CN=WR2,O=Google Trust Services,C=US",
+            "not_before": "2025-06-23T08:42:18Z",
+            "not_after": "2025-09-15T08:42:17Z",
+            "serial_number": "203840524898325775880063198140995601002",
+            "fingerprint": ""
+          }
+        },
+        "handshake_complete": true,
+        "peer_certificates_count": 3
+      },
+      "scan_time": 210047700949
+    }
+  ]
+}
